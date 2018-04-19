@@ -1,0 +1,33 @@
+{
+  "name": "react-spa-skeleton",
+  "version": "1.0.0",
+  "description": "A base react single page application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Clarke/react-spa-skeleton.git"
+  },
+  "author": "Sean Clarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sean-Clarke/react-spa-skeleton/issues"
+  },
+  "homepage": "https://github.com/Sean-Clarke/react-spa-skeleton#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.6.0"
+  }
+}
