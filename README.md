@@ -15,14 +15,14 @@
 npm install
 ```
 
-### Development
+## Development
 
-## Build
+### Build
 ```
 npm run build
 ```
 
-## Testing
+### Testing
 ```
 npm start
 ```
