@@ -12,10 +12,17 @@
 
 ### Setup
 ```
-npm ____
+npm install
 ```
+
+### Development
 
 ## Build
 ```
-npm ____
+npm run build
+```
+
+## Testing
+```
+npm start
 ```
