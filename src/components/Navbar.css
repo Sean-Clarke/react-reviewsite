@@ -1,0 +1,137 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  position: fixed;
+  min-width: 840px;
+  width: 100%;
+  background-color: #66CC99;
+}
+
+#navbar {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#navbar-home {
+  color: white;
+  margin-right: 4%;
+  text-decoration: none;
+}
+
+#navbar-search {
+  display: inline;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar-search-input {
+  min-width: 200px;
+  width: 16%;
+  color: white;
+  background-color: #66CC99;
+  border: none;
+  border-top: 2px solid #66CC99;
+  border-bottom: 2px solid white;
+  margin: 0px;
+  padding: 8px 0 8px 1%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#navbar-search-input:focus {
+  outline: none;
+  color: #66CC99;
+  border-top: 2px solid white;
+  background-color: white;
+}
+
+#navbar-search-input::placeholder {
+  color: white;
+}
+
+#navbar-search-submit {
+  color: white;
+  background-color: #66CC99;
+  text-align: center;
+  padding: 8px 10px 8px 10px;
+  border: 2px solid white;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#navbar-search-submit:hover {
+  color: #66CC99;
+  background-color: white;
+  border: 2px solid white;
+  outline: none;
+}
+
+#navbar-search-submit:focus {
+  color: #66CC99;
+  background-color: white;
+  border: 2px solid white;
+  outline: none;
+}
+
+.navbar-r {
+  float: right;
+  margin-right: 2%;
+}
+
+#navbar-about {
+  color: white;
+  padding: 8px 12px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+#navbar-about:hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid white;
+}
+
+#navbar-faq {
+  color: white;
+  padding: 8px 12px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+#navbar-faq:hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+}
+
+#navbar-login {
+  color: white;
+  padding: 8px 12px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+#navbar-login:hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+}
+
+#navbar-signup {
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 6px 16px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+#navbar-signup:hover {
+  color: #66CC99;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+}
